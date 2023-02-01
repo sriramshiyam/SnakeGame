@@ -1,5 +1,5 @@
 if (innerWidth <= 900) {
-  document.body.innerHTML = "<h1 style=\"color:black\">This Game only supported for desktop</h1>";
+  document.body.innerHTML = "<h1 style=\"color:black\">This Game is only supported for desktop</h1>";
 } else {
   /** @type {HTMLCanvasElement} */
   const canvas = document.getElementById("canvas");
